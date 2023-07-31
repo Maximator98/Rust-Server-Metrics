@@ -7,6 +7,7 @@ trigger:
 - refs/tags/release-v*
 
 pool:
+  name: 'MyRunner'
   vmImage: 'windows-latest'
 
 variables:
