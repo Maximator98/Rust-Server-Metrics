@@ -6,6 +6,7 @@
 trigger:
 - refs/tags/release-v*
 - master
+- influxdb-v2.1
 
 pool:
   vmImage: 'windows-latest'
